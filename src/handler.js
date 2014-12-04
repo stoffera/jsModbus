@@ -79,7 +79,7 @@ exports.Server.ResponseHandler = {
   },
   6: function (outputAddress, outputValue) {
   
-      var res = Put().word8(5).word16be(outputAddress).word16be(outputValue).buffer();
+      var res = Put().word8(6).word16be(outputAddress).word16be(outputValue).buffer();
 
       return res;
   
